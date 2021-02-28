@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Clock excitation}{1}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Clock excitation without dephasing}{1}{subsection.1.1}% 
+\contentsline {section}{\numberline {2}Potential}{2}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Measurements}{4}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Gaussian intensity profile}{4}{subsubsection.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Ground and excited state trap frequencies ($\alpha _{\text {g}}/\alpha _{\text {e}}$)}{5}{subsubsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Absolute clock laser detuning}{5}{subsubsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.2}Cross-check}{8}{subsection.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Discrepancies between total ac-Stark \& Trap frequency measurements}{8}{subsubsection.2.2.1}% 
+\contentsline {paragraph}{Can we extract $\alpha _g$?}{9}{section*.12}% 
+\contentsline {section}{\numberline {3}Appendices}{9}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Magnetic field calibration}{9}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Clock laser waist calibration}{10}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Quadratic Zeeman Shift}{10}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Ac-Stark shift from the clock laser}{10}{subsection.3.4}% 

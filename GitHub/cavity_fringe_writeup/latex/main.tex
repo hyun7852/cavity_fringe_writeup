@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lachaise Assignment
+% LaTeX Template
+% Version 1.0 (26/6/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Marion Lachaise & François Févotte
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[bibnotes]{article}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{natbib}
+\usepackage{physics}
+\usepackage{amsmath}
+
+% \usepackage{subfig}
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\DeclareMathOperator{\re}{Re}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\sign}{sign}
+
+\newcommand{\SLJ}[3]{{\ensuremath{{^{#1}}\mathrm{#2}_{#3}}}}
+\newcommand{\TPT}{\SLJ{3}{P}{2}}
+\newcommand{\TPO}{\SLJ{3}{P}{1}}
+\newcommand{\TPZ}{\SLJ{3}{P}{0} \ }
+\newcommand{\TPJ}{\SLJ{3}{P}{J}}
+\newcommand{\TSO}{\SLJ{3}{S}{1}}
+\newcommand{\SSZ}{\SLJ{1}{S}{0} \ }
+\newcommand{\SPO}{\SLJ{1}{P}{1}}
+\newcommand{\TDO}{\SLJ{3}{D}{1}}
+\newcommand{\SDT}{\SLJ{1}{D}{2}}
+
+\newcommand{\Isotope}[2]{\ensuremath{^{{#1}}\text{{#2}}}\xspace}
+\newcommand{\Sr}[1]{\Isotope{{#1}}{Sr}}
+
+\title{Cavity Ring Project Data Analysis} % Title of the assignment
+
+\author{Annie Jihyun Park\\ \texttt{ajpark@mpq.mpg.de}} % Author name and email address
+
+\date{\today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction} % Unnumbered section
+
+	We use the spatially dependent ac-Stark shift of the clock transition to map the intensity profile of the cavity lattices. This document summarizes the data analysis went into the cavity fringe project. 
+
+% The focus of our paper will be about integrating the build-up cavities for optical lattice experiments, demonstrating its viability to create high contrast, large, homogeneous, and deep optical lattices in a stable and compact way.
+% The Gaussian intensity profile of optical lattices is one of the central features that characterizes the homogeneity and size of the lattices. For this reason, 
+% For this reason, we chose the lattice wavelength to be 914 nm to maximize the stark shift, whereas the sheet beam wavelength is magic, 813 nm, to eliminate the influence of the sheet light. 
+%----------------------------------------------------------------------------------------
+%	PROBLEM 1
+%----------------------------------------------------------------------------------------
+\tableofcontents
+
+\input{sub/clock}
+\input{sub/potential}
+\input{sub/appendix}
+
+
+
+\end{document}
